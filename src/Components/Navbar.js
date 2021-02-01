@@ -4,28 +4,32 @@ export default class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                        <ul className="nav">
-                            <li>
-                                <a className="nav-link active" aria-current="page" href="#"><Link to="/">Beranda</Link></a>
-                            </li>
-                            <p></p>
-                            <li>
-                                <a className="nav-link active" href="#"><Link to="/tentangsaya">Tentang Saya</Link></a>
-                            </li>
-                            <p></p>
-                            <li>
-                                <a className="nav-link active" href="#"><Link to="/karya">Karya</Link></a>
-                            </li>
-                            <p></p>
-                            <li>
-                                <a className="nav-link active" href="#"><Link to="/kontak">Kontak</Link></a>
-                            </li>
-                            <p></p>
-                            <li>
-                                <a className="nav-link active" href="#"></a>
-                            </li>
-                        </ul>
+                <nav>
+                    <ul className="nav">
+                        <li>
+                            <button className="logo"><Link className="logo" to={this.props.link1}>{this.props.logo}</Link></button>
+                        </li>
+                        <p></p>
+                        <p></p>
+                        <li>
+                            <button className="nav-button"><Link className="nav-button" to={this.props.link1}>{this.props.page1}</Link></button>
+                        </li>
+                        <p></p>
+                        <li>
+                            <button className="nav-button"><Link className="nav-button" to={this.props.link2}>{this.props.page2}</Link></button>
+                        </li>
+                        <p></p>
+                        <li>
+                            <button className="nav-button"><Link className="nav-button" to={this.props.link3}>{this.props.page3}</Link></button>
+                        </li>
+                        <p></p>
+                        <li>
+                            <button className="nav-button"><Link className="nav-button" to={this.props.link4}>{this.props.page4}</Link></button>
+                        </li>
+                        <p></p>
+
+
+                    </ul>
                 </nav>
             </div>
         )

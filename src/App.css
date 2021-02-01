@@ -2,10 +2,11 @@ body,
 #root {
   height: 100vh;
   margin: 0;
+  background-color: #F8F9FA;
 }
 .grid-container {
   display: grid;
-  grid-template-areas: "header" "main" "footer";
+  grid-template-areas: "header""main" "footer";
   grid-template-rows: 5rem 1fr 5rem;
   grid-template-columns: 1fr;
   height: 100%;
@@ -19,6 +20,7 @@ h2{
 header {
   grid-area: header;
   background-color: #F8F9FA;
+  box-shadow: 0px 2px 4px rgba(197, 197, 197, 0.25);
   color: white;
   display: flex;
   align-items: center;
@@ -27,6 +29,7 @@ header {
 
 main {
   grid-area: main;
+  
 }
 
 footer {
@@ -36,6 +39,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0.5rem;
 }
 
 .content {
@@ -56,11 +60,7 @@ footer {
   flex: 1;
   color: #c0c0c0;
 }
-.nav a{
-  color: #C0c0c0;
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 .nav p{
   align-items: center;
   padding: 1rem;
@@ -68,10 +68,26 @@ footer {
 nav ul{
   list-style: none;
 }
-.nav a:hover{
+.nav-button:hover{
   color: #61AC81;
 }
 
+.nav-button{
+  border: none;
+  background-color: #F8F9FA;
+  color: #C0c0c0;
+  text-decoration: none;
+  font-family: 'josefin sans';
+  font-size: 18px;
+}
+.logo{
+  color: #61AC81;
+  text-decoration: none;
+  font-family: 'josefin sans';
+  background-color: #F8F9FA;
+  border: none;
+  font-size: 24px;
+}
 /* END NAVBAR */
 
 .App {
