@@ -4,7 +4,7 @@ export default class Karya extends Component {
     render() {
         return (
             <div>
-                <h2>ini karya</h2>
+                <h2>Ini Karya</h2>
             </div>
         )
     }

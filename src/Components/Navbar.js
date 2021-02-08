@@ -14,21 +14,21 @@ export default class Navbar extends Component {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <div className="nav">
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                                <p></p>
-                                <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#"><Link className="nav-button" to={this.props.link1}>{this.props.page1}</Link></a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#"><Link className="nav-button" to={this.props.link2}>{this.props.page2}</Link></a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#"><Link className="nav-button" to={this.props.link3}>{this.props.page3}</Link></a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#"><Link className="nav-button" to={this.props.link4}>{this.props.page4}</Link></a>
-                                </li>
-                            </ul>
+                                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <p></p>
+                                    <li className="nav-item">
+                                        <a className="nav-link active" aria-current="page" href="#"><Link className="nav-button" to={this.props.link1}>{this.props.page1}</Link></a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link active" aria-current="page" href="#"><Link className="nav-button" to={this.props.link2}>{this.props.page2}</Link></a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link active" aria-current="page" href="#"><Link className="nav-button" to={this.props.link3}>{this.props.page3}</Link></a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link active" aria-current="page" href="#"><Link className="nav-button" to={this.props.link4}>{this.props.page4}</Link></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>

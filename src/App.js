@@ -21,7 +21,7 @@ export default class App extends Component {
             </div>
           </div>
         </main>
-        <footer><p><br/><center>All Right is reserved</center></p></footer>
+        <footer><p><br /><center>All Right is reserved</center></p></footer>
       </div>
     )
   }
