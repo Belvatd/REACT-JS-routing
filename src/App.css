@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
 body,
 #root {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   background-color: #F8F9FA;
 }
@@ -13,14 +15,15 @@ body,
 }
 
 h2{
+  padding: 2rem;
   margin: 2rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: roboto;
 }
 
 header {
   grid-area: header;
   background-color: #F8F9FA;
-  box-shadow: 0px 2px 4px rgba(197, 197, 197, 0.25);
+  box-shadow: 0px 5px 5px rgba(197, 197, 197, 0.25);
   color: white;
   display: flex;
   align-items: center;
@@ -34,12 +37,14 @@ main {
 
 footer {
   grid-area: footer;
-  background-color: #61AC81;
+  background-color: #14274e;
   color: white;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
 }
 
 .content {
@@ -48,45 +53,43 @@ footer {
 }
 
 .main {
-  flex: 3 60rem
+  flex: 3 60rem;
 }
 /* NAVBAR */
-.nav{
+/* .nav{
   display: flex;
+  flex: wrap;
   justify-content:flex-start;
-  padding: 1rem;
-  margin: 1rem;
-  height: 1rem;
   flex: 1;
   color: #c0c0c0;
-}
+  align-items: center;
+} */
 
 .nav p{
   align-items: center;
   padding: 1rem;
 }
+
 nav ul{
   list-style: none;
 }
 .nav-button:hover{
-  color: #61AC81;
+  color: #14274e;
+  text-decoration: none;
 }
 
 .nav-button{
   border: none;
   background-color: #F8F9FA;
-  color: #C0c0c0;
+  color: #7c7c7c;
   text-decoration: none;
-  font-family: 'josefin sans';
-  font-size: 18px;
+  font-family: 'Roboto';
+  font-size: 16px;
 }
+
 .logo{
-  color: #61AC81;
-  text-decoration: none;
-  font-family: 'josefin sans';
   background-color: #F8F9FA;
   border: none;
-  font-size: 24px;
 }
 /* END NAVBAR */
 

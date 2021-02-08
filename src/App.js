@@ -10,7 +10,7 @@ export default class App extends Component {
         <header>
           <Navbar page1="Beranda" page2="Tentang Saya" page3="Karya" page4="Kontak"
             link1="/" link2="/tentangsaya" link3="/karya" link4="/kontak"
-            logo="Belva Talitha">
+            image="logo RTB.png">
           </Navbar>
         </header>
         <hr />
@@ -21,7 +21,7 @@ export default class App extends Component {
             </div>
           </div>
         </main>
-        <footer>All Right is reserved</footer>
+        <footer><p><br/><center>All Right is reserved</center></p></footer>
       </div>
     )
   }
