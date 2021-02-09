@@ -4,7 +4,7 @@ body,
 #root {
   min-height: 100vh;
   margin: 0;
-  background-color: #F8F9FA;
+  background: linear-gradient(to top, #bfbaff, #f8f8fa, #F8F9FA);
 }
 .grid-container {
   display: grid;
@@ -23,7 +23,7 @@ h2{
 header {
   grid-area: header;
   background-color: #F8F9FA;
-  box-shadow: 0px 5px 5px rgba(197, 197, 197, 0.25);
+  position: fixed;
   color: white;
   display: flex;
   align-items: center;
@@ -37,14 +37,14 @@ main {
 
 footer {
   grid-area: footer;
-  background-color: #14274e;
   color: white;
   display: flex;
   align-items: center;
-  position: absolute;
   bottom: 0;
   width: 100%;
-  height: 5rem;
+  height: 5rem; 
+  background: linear-gradient(to right, #30297e, #18114b);
+
 }
 
 .content {
@@ -56,14 +56,14 @@ footer {
   flex: 3 60rem;
 }
 /* NAVBAR */
-/* .nav{
-  display: flex;
-  flex: wrap;
-  justify-content:flex-start;
-  flex: 1;
-  color: #c0c0c0;
-  align-items: center;
-} */
+.nav{
+  top: 0vh;
+  height: 5rem;
+  position: fixed;
+  background-color: #F8F9FA;
+  box-shadow: 0px 5px 5px rgba(197, 197, 197, 0.25);
+  width: 100%;
+}
 
 .nav p{
   align-items: center;
@@ -92,6 +92,65 @@ nav ul{
   border: none;
 }
 /* END NAVBAR */
+
+/* Beranda */
+.home{
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  justify-content: space-between;
+  width: 90%;
+  height: 70vh;
+  margin-top: 75px;
+  margin-left: 80px;
+  position:inherit;
+  padding-top: 0rem;
+  align-items: center;
+  background: #F8F9FA;
+  border-radius: 50px;
+  box-shadow: -5px 5px 5px rgba(101, 101, 101, 0.25); 
+  background: linear-gradient(to right, #221d57, #3c337a, #48296d);
+
+}
+
+.title {
+  align-items: center;
+  color: white;
+  font-family: righteous;
+  margin: 6rem;
+}
+.title h1 {
+  font-size: 64px;
+}
+.title-sub {
+  font-size: 32px;
+  font-family: roboto;
+}
+.title-p {
+  font-size: 18px;
+  font-family: roboto;
+}
+.title button {
+  background-color: orange;
+  border: none;
+  border-radius: 30px;
+  width: 12rem;
+  height: 3rem;
+}
+.title button :hover{
+  color: #18114b;
+  text-decoration: none;
+}
+.text-button {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.beranda-img {
+  width: 550px;
+}
 
 .App {
   text-align: center;
