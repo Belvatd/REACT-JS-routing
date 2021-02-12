@@ -5,7 +5,7 @@ export default class Beranda extends Component {
     render() {
         return (
             <div>
-                <div>
+                <div className="beranda">
                     <div className="home">
                         <div className="title">
                             <h1>Rock The Box</h1>
@@ -21,9 +21,9 @@ export default class Beranda extends Component {
                             </p>
                         </div>
                     </div>
-                    <br/>
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
+                    <br />
                 </div>
             </div>
         )

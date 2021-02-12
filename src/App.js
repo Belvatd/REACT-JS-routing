@@ -8,7 +8,7 @@ export default class App extends Component {
     return (
       <div className="grid-container">
         <header>
-          <Navbar page1="Beranda" page2="Tentang Saya" page3="Karya" page4="Kontak"
+          <Navbar page1="Home" page2="About Me" page3="Work" page4="Contact"
             link1="/" link2="/tentangsaya" link3="/karya" link4="/kontak"
             image="logo RTB.png">
           </Navbar>
